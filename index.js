@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const port = process.env.PORT || 3000;
 
-// Serve static files
+// Serve static files from the root directory
 app.use(express.static(__dirname));
 
 // Parse JSON bodies
