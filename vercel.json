@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
     "version": 2,
     "builds": [
       {
@@ -11,7 +10,7 @@
       {
         "src": "/api/generate-qr",
         "methods": ["POST"],
-        "dest": "index.js"
+        "dest": "/index.js"
       },
       {
         "src": "/(.*)",
@@ -19,24 +18,4 @@
       }
     ]
   }
-=======
-  "version": 2,
-  "builds": [
-    {
-      "src": "index.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/generate-qr",
-      "methods": ["POST"],
-      "dest": "index.js"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ]
-}
->>>>>>> 6880c893fcaf3b39bf40064cc7532f7f36bfa7ac
+  
